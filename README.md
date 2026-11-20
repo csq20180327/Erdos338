@@ -1,6 +1,60 @@
 # Erdos338
 
-Research on Erdos Problem 338
+Erdős Problem #338: Solutions to the Characterization and Finite-Deletion Questions
+
+
+% !TeX program = pdflatex
+% !TeX encoding = GBK
+\documentclass[a4paper,12pt,twoside]{article}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage{fullpage}
+\usepackage{amssymb,amsmath,amsthm,mathtools}
+\usepackage{enumitem}
+\usepackage{needspace}
+\usepackage[unicode,hidelinks]{hyperref}
+\usepackage{url}
+
+\textwidth=36cc\baselineskip=10pt
+\renewcommand{\baselinestretch}{1.25}
+\renewcommand{\arraystretch}{1.3}
+\setlength{\emergencystretch}{2em}
+\newtheorem{theorem}{Theorem}
+\newtheorem{corollary}{Corollary}
+\newtheorem{lemma}{Lemma}
+\renewcommand{\proofname}{Proof}
+\newcommand{\N}{\mathbb N}
+\newcommand{\Z}{\mathbb Z}
+\newcommand{\ld}{\underline d}
+\newcommand{\ord}{\operatorname{ord}}
+\newcommand{\ordR}{\operatorname{ord}_{R}}
+\newcommand{\supp}{\operatorname{supp}}
+\hypersetup{pdftitle={On a Problem of Erd\H{o}s and Graham Related to Restricted Order},pdfauthor={Shi-Qiang Chen, Quan-Hui Yang, Lilu Zhao}}
+\begin{document}
+\title{\Large On a problem of Erd\H{o}s and Graham
+related to restricted order\footnote{The first author is supported by the National Natural Science Foundation of China (Grant No. 12301003), the Anhui Provincial Natural Science Foundation (Grant No. 2308085QA02) and the University Natural Science Research Project of Anhui Province (Grant No. 2022AH050171). The second author is supported by the National Natural Science Foundation of China (Grant No. 12371005 and 12671008). The third author is supported by the National Key Research and
+Development Program of China (Grant No.~2021YFA1000701) and the
+National Natural Science Foundation of China (Grant No.~12471088). }}
+
+\author{\large Shi-Qiang Chen$^{a}$,
+\large ~~~Quan-Hui Yang$^{b}$,~~~Lilu Zhao$^{c}$,\thanks{E-mail addresses: csq20180327@163.com (S.-Q. Chen), yangquanhui01@163.com (Q.-H. Yang), zhaolilu@ustc.edu.cn (L. Zhao).}}
+\date{} \maketitle
+\par\vspace{-1.5em}
+\begingroup
+\centering
+\small
+\setlength{\parskip}{0pt}
+\setlength{\baselineskip}{13pt}
+$a$. School of Mathematics and Statistics,\\
+Anhui Normal University, Wuhu 241002, China\par
+\vspace{3pt}
+$b$. School of Mathematical Sciences and Ministry of Education Key Laboratory for NSLSCS,\\
+Nanjing Normal University, Nanjing 210023, China\par
+\vspace{3pt}
+$c$. School of Mathematical Sciences,\\
+University of Science and Technology of China, Hefei 230026, China\par
+\endgroup
+\vspace{1em}
 \par\noindent {\bf Abstract.}\quad
 Let $A$ be a set of nonnegative integers. We prove that if
 $A\setminus F$ has a finite order for every
